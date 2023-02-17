@@ -1,3 +1,48 @@
-h1 { color: purple; }
-h2 { color: green; }
-h3 { color: navy; }
+html {background-color: lavenderblush}
+h1 { color: purple;
+    font-family:Arial;
+    font-size: x-large
+}
+h2 { color: lightseagreen; 
+    font-family: Arial;
+    font-size: larger}
+h3 { color: indigo; 
+    font-family: Arial;
+    font-size:medium}
+
+p {font-family: Arial;
+    font-size: 14px;
+    border: lavenderblush;
+    margin: 50px;
+}
+
+div.class {text-align: center;
+}
+ul.myUL {display: inline-block;
+        text-align: left;
+    }
+div.hope {text-align: center;
+}
+
+.class {
+    background-color: lightblue;
+    color: indigo;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+.fact {
+    background-color: lightgreen;
+    color: indigo;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+  h3 {text-align: center;}
+  img {display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+  }
