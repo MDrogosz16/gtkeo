@@ -6,7 +6,7 @@ h1 { color: purple;
 h2 { color: lightseagreen; 
     font-family: Arial;
     font-size: larger}
-h3 { color: indigo; 
+h3 { color: purple; 
     font-family: Arial;
     font-size:medium}
 
@@ -25,15 +25,15 @@ div.hope {text-align: center;
 }
 
 .class {
-    background-color: lightblue;
-    color: indigo;
+    background-color: plum;
+    color: purple;
     border: 1px solid black;
     margin: 20px;
     padding: 20px;
   }
 .fact {
-    background-color: plum;
-    color: indigo;
+    background-color: lightblue;
+    color: purple;
     border: 1px solid black;
     margin: 20px;
     padding: 20px;
@@ -61,3 +61,24 @@ div.hope {text-align: center;
     clear: both;
     display: table;
   }
+
+  header {
+    background-color: cadetblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: purple;
+  }
+
+  footer {
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    color: purple;
+  }
+  table, td {
+    border:1px solid black;
+    padding: 5px;
+  }
+  th {color: purple
+}
