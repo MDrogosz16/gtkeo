@@ -76,9 +76,6 @@ div.hope {text-align: center;
     text-align: center;
     color: purple;
   }
-  table, td {
-    border:1px solid black;
-    padding: 5px;
-  }
-  th {color: purple
-}
+  table, th, td {
+    border:1px solid black; }
+    th {color: purple}
