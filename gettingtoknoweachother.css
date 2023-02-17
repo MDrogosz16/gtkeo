@@ -32,7 +32,7 @@ div.hope {text-align: center;
     padding: 20px;
   }
 .fact {
-    background-color: lightgreen;
+    background-color: plum;
     color: indigo;
     border: 1px solid black;
     margin: 20px;
@@ -43,6 +43,21 @@ div.hope {text-align: center;
   h3 {text-align: center;}
   img {display: block;
       margin-left: auto;
-      margin-right: auto;
-     
+      margin-right: auto;  
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
